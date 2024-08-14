@@ -31,7 +31,7 @@ secuencia_producto = {
 }
 
 #Modelo de optimizacion
-m = Model("Tiempos")
+m = Model("Tiempitos")
 M = 3000
 
 #Variables
