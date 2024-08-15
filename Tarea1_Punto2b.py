@@ -35,7 +35,7 @@ m = Model("Tiempitos")
 M = 70
 
 #Variables
-x = m.addVars(P,E, vtype = GRB.INTEGER, name = "x")
+x = m.addVars(P,E, vtype = GRB.INTEGER, name = "w")
 y = m.addVars(P,F,E, vtype = GRB.BINARY, name = "y")
 z = m.addVar(vtype = GRB.INTEGER, name = "z")
 
