@@ -22,7 +22,7 @@ F =[f for f in conjuntos["Productos"] if not pd.isna(f)]
 #PARAMETROS
 
 #Tiempos
-t= pd.read_excel(io= file_name,sheet_name="Tiempos", index_col=[0,1]).squeeze()
+t= pd.read_excel(io= file_name,sheet_name="Time", index_col=[0,1]).squeeze()
 #Secuencia de los productos
 secuencia_producto = {
     1: ["Corte", "Pulido"],  
