@@ -32,7 +32,7 @@ secuencia_producto = {
 
 #Modelo de optimizacion
 m = Model("Tiempitos")
-M = 6000
+M = 70
 
 #Variables
 x = m.addVars(P,E, vtype = GRB.INTEGER, name = "x")
